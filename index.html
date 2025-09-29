@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head >
+           <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webdev1.css"> 
+
+</head>  
+
+
+<body  >
+    
+    
+    <!--First section-->
+    <!-- <fieldset class="field"> -->
+      <div>  
+      <div  class="background" style="background-image: url('4.jpg'); 
+      background-size: cover;
+      height:630px; padding-top:80px;
+      min-width: 100%;
+      min-height: 100%;
+      padding-bottom: 100px;
+      ">  
+      
+    </div>
+      <div class="template" > 
+          <div >  
+              
+              
+              
+              <div class="test">
+                 -----------GIFFF WORLD----------- 
+                  <!-- <p class="small"> <br> WELCOME TO GIFFF WORLD </p> -->
+                  <!-- <p class="smaller"> AND FIND YOUR EMOTIONS IN MOVING PICTURES </p> -->
+                </div>
+                
+                
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                  <defs>
+                <filter id="squiggly-0">
+                      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0"/>
+                      <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+                    </filter>
+                    <filter id="squiggly-1">
+                      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+                    </filter>
+                    
+                    <filter id="squiggly-2">
+                      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                    </filter>
+                    <filter id="squiggly-3">
+                      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+                    </filter>
+                    
+                    <filter id="squiggly-4">
+                      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                    </filter>
+                  </defs> 
+                </svg>
+         </div>
+      </div >
+      <br>
+ 
+  </div>
+<!-- </fieldset> -->
+
+
+
+    <div>
+     
+     <div class="wrap">
+        <div class="search">
+           <input type="text"  class="searchTerm" id="input" placeholder="Wanna GIF?">
+           <button  onclick="getApi()"  class="searchButton" id="btn"> Go
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+     <div class="jabba"> <fieldset class="dabba" id="babba" > </fieldset></div>
+      </div>
+      <script src="script.js"></script>
+    
+    </body>
+</html>
